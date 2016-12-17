@@ -1,0 +1,102 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:paddingLeft="4dp"
+    tools:context="com.example.roshan.cinqsnipe.fragment.All">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="86dp"
+            android:src="@drawable/ht"
+            android:id="@+id/imageicon"
+            />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_height="wrap_content">
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="20dp"-->
+        <!--android:textStyle="italic"-->
+        <!--android:textColor="#890c0c"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="Iname"-->
+        <!--android:id="@+id/tvIname"-->
+        <!--/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:id="@+id/txt_title"
+            android:padding="7dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Streat Name"
+            android:textStyle="normal"
+            android:padding="7dp"
+            android:id="@+id/txt_location"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:id="@+id/txt_type"
+            android:padding="7dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textStyle="bold"
+                android:layout_weight="0.25"
+                android:id="@+id/txt_price"
+                android:padding="7dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rate"
+                android:padding="7dp"
+                android:layout_weight="0.25"
+                android:id="@+id/txt_rate"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="Area"
+                android:layout_weight="0.25"
+                android:id="@+id/txt_area"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
